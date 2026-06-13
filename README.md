@@ -208,6 +208,87 @@ stock-screener/
 
 ---
 
+# クラウド公開手順（スマホ・他PCのブラウザから見る）
+
+「どの端末からでも、同じURLで最新のスクリーニング結果を見る」ための手順です。無料でできます。
+
+## 仕組み（全体像）
+
+```
+GitHub Actions  ── 毎営業日18:00(JST)に自動で screening 実行 → data/latest_screen.json を更新
+      │
+GitHub リポジトリ ── コードと最新結果を保管
+      │
+Streamlit Community Cloud ── streamlit_app.py がその結果を読んで表示（無料・URL発行）
+      │
+   スマホ/PC のブラウザ ── https://○○○.streamlit.app （パスワード保護）
+```
+
+- **重い処理（225銘柄の取得）は裏側で1日1回だけ**。閲覧アプリは結果を読むだけなので速い・安定。
+- **閲覧専用**です。紙トレードの記録（保有管理）は引き続き手元の `streamlit run dashboard.py` で行います。
+- **パスワード保護**：URLを知っていてもパスワードがなければ中身は見られません。
+
+## 必要なもの
+- **GitHubアカウント**（無料。未登録なら https://github.com で作成）
+- 推奨：**GitHub Desktop**（https://desktop.github.com 。コマンドが苦手でもGUIで公開できます）
+
+## 手順
+
+### STEP 1. コードをGitHubに上げる（公開＝Publish）
+ローカルにはすでにGitリポジトリと初回コミットを用意済みです。あとは公開するだけ。
+
+**かんたん版（GitHub Desktop）:**
+1. GitHub Desktop を起動 → `File` → `Add Local Repository` → このフォルダ（`stock-screener`）を選ぶ
+2. `Publish repository` をクリック → リポジトリ名はそのままでOK
+3. **「Keep this code private（プライベート）」にチェックを入れて** Publish（戦略コードを非公開にするため推奨）
+
+**コマンド版（GitHub Desktopを使わない場合）:**
+```bash
+cd /Users/miyashitadaiki/stock-screener
+git remote add origin https://github.com/<あなたのユーザー名>/stock-screener.git
+git push -u origin main
+```
+
+### STEP 2. 毎日の自動更新（GitHub Actions）を有効化
+1. GitHubでリポジトリのページを開く → 上部の `Actions` タブ
+2. ワークフロー一覧に「daily-screen」が出ます。初回は緑の「I understand... enable」ボタンが出たら有効化
+3. 動作確認：`daily-screen` を選び `Run workflow` を押す → 数分後に `data/latest_screen.json` が更新されればOK
+   （以後は毎営業日18:00 JSTに自動実行されます）
+
+> 補足：プライベートリポジトリのActionsは無料枠（月2000分）内で十分収まります（1回約6分×平日）。
+> 60日間リポジトリの操作がないとスケジュールは自動停止するので、たまにコミットするか手動実行を。
+
+### STEP 3. Streamlit Community Cloud にデプロイ
+1. https://share.streamlit.io を開き、**GitHubアカウントでサインイン**（プライベートリポジトリへのアクセスを許可）
+2. `Create app` → `Deploy a public app from a repo`（プライベートでも可）
+3. 設定：
+   - Repository：`<あなたのユーザー名>/stock-screener`
+   - Branch：`main`
+   - **Main file path：`streamlit_app.py`**（← ここを必ず指定）
+4. `Deploy` を押す（初回ビルドに数分）。完了すると `https://○○○.streamlit.app` というURLが発行されます。
+
+### STEP 4. パスワードを設定（重要）
+1. デプロイしたアプリの画面右下 `⋮` → `Settings` → `Secrets`
+2. 次の1行を貼り付けて保存：
+   ```toml
+   app_password = "ここに好きなパスワード"
+   ```
+3. アプリが自動で再起動し、以降はURLを開くとパスワード入力を求められます。
+
+> ⚠ パスワードを設定するまでは「誰でも閲覧可」の警告が画面に出ます。必ず設定してください。
+
+## 使い方（公開後）
+- スマホ/PCのブラウザでURLを開く → パスワード入力 → 最新のスクリーニング結果が見られます。
+- 画面上部に「データ基準日／更新時刻」が出ます。毎営業日の夜に自動更新されます。
+- コードを直したくなったら、GitHub Desktopで `Commit` → `Push`（またはコマンドで `git push`）すると、Streamlit Cloudが自動で反映します。
+
+## うまくいかないとき
+- **ビルドでエラー**：Streamlit Cloud の `Settings` → `Advanced` で Python を `3.11` に指定して再デプロイ。
+- **データが古い/出ない**：Actionsタブで `daily-screen` を手動 `Run workflow`。`latest_screen.json` が更新されたらアプリ右上「🔄 表示を最新化」。
+- **パスワード警告が消えない**：STEP 4 の Secrets 設定を確認（`app_password` のスペル）。
+
+---
+
 # 紙トレード運用手順（実弾投入前の前向き検証）
 
 バックテストの結論：**優位性は薄く（コスト後 約+0.08R/トレード）・上昇相場に偏り・下落局面では不安定**。
