@@ -1,0 +1,2 @@
+signal_date,entry_date,code,name,entry_price,stop_price,target_price,shares,planned_risk_R,exit_date,exit_price,exit_reason,pnl_R,regime,notes
+2026-06-15,2026-06-16,6758.T,ソニーグループ,3300,3069,3795,21,1.0,2026-06-30,3795,target,2.11,up,記入例（この行は削除して使う。株数=floor(0.005*1000000/(3300-3069))=21、損益Rは手数料0.2%控除後）

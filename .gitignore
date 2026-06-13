@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ローカルのデータ取得キャッシュ（クラウドでは使わない／毎回再取得）
+cache/
+
+# Streamlit の秘密情報（パスワード等）は絶対にコミットしない
+.streamlit/secrets.toml
+
+# 保有管理（紙トレード記録）は手元アプリ専用・個人データなので公開しない
+data/holdings.json
+
+# ローカル実行で日々増える出力（リポジトリには上げない）
+data/screen_*.csv
+data/backtest_*.csv
+data/equity_*.csv
+
+# 注意: data/latest_screen.json は GitHub Actions が更新する公開データなので
+#       .gitignore しない（追跡する）。
