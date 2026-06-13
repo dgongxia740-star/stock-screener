@@ -7,261 +7,261 @@
 # ※ 万一 yfinance で解決できないコードがあっても、その銘柄はスキップされ「取得失敗」として残ります。
 
 # --- Air transport ---
-9202.T  # ANA Holdings
-9201.T  # Japan Airlines
+9202.T  # ANAホールディングス
+9201.T  # 日本航空
 # --- Automotive ---
-543A.T  # Archion
-7267.T  # Honda Motor
-7202.T  # Isuzu Motors
-7261.T  # Mazda Motor
-7211.T  # Mitsubishi Motors
-7201.T  # Nissan Motor
-7270.T  # Subaru
-7269.T  # Suzuki Motor
-7203.T  # Toyota Motor
-7272.T  # Yamaha Motor
+543A.T  # アーキオン
+7267.T  # ホンダ
+7202.T  # いすゞ自動車
+7261.T  # マツダ
+7211.T  # 三菱自動車
+7201.T  # 日産自動車
+7270.T  # SUBARU
+7269.T  # スズキ
+7203.T  # トヨタ自動車
+7272.T  # ヤマハ発動機
 # --- Banking ---
-8304.T  # Aozora Bank
-8331.T  # Chiba Bank
-8354.T  # Fukuoka Financial Group
-8306.T  # Mitsubishi UFJ Financial Group
-8411.T  # Mizuho Financial Group
-8308.T  # Resona Holdings
-5831.T  # Shizuoka Financial Group
-8316.T  # Sumitomo Mitsui Financial Group
-8309.T  # Sumitomo Mitsui Trust Holdings
-7186.T  # Concordia (Yokohama) Financial Group
+8304.T  # あおぞら銀行
+8331.T  # 千葉銀行
+8354.T  # ふくおかフィナンシャルグループ
+8306.T  # 三菱UFJフィナンシャル・グループ
+8411.T  # みずほフィナンシャルグループ
+8308.T  # りそなホールディングス
+5831.T  # しずおかフィナンシャルグループ
+8316.T  # 三井住友フィナンシャルグループ
+8309.T  # 三井住友トラスト・ホールディングス
+7186.T  # コンコルディア・フィナンシャルグループ
 # --- Chemicals ---
-3407.T  # Asahi Kasei
-4061.T  # Denka
-4901.T  # Fujifilm Holdings
-4452.T  # Kao
-3405.T  # Kuraray
-4188.T  # Mitsubishi Chemical Group
-4183.T  # Mitsui Chemicals
-4021.T  # Nissan Chemical
-6988.T  # Nitto Denko
-4004.T  # Resonac
-4063.T  # Shin-Etsu Chemical
-4911.T  # Shiseido
-4005.T  # Sumitomo Chemical
-4043.T  # Tokuyama
-4042.T  # Tosoh
-4208.T  # Ube Industries
+3407.T  # 旭化成
+4061.T  # デンカ
+4901.T  # 富士フイルムホールディングス
+4452.T  # 花王
+3405.T  # クラレ
+4188.T  # 三菱ケミカルグループ
+4183.T  # 三井化学
+4021.T  # 日産化学
+6988.T  # 日東電工
+4004.T  # レゾナック・ホールディングス
+4063.T  # 信越化学工業
+4911.T  # 資生堂
+4005.T  # 住友化学
+4043.T  # トクヤマ
+4042.T  # 東ソー
+4208.T  # UBE（宇部興産）
 # --- Communications ---
 9433.T  # KDDI
-9432.T  # Nippon Telegraph & Telephone
-9434.T  # SoftBank Corp.
-9984.T  # SoftBank Group
+9432.T  # 日本電信電話（NTT）
+9434.T  # ソフトバンク
+9984.T  # ソフトバンクグループ
 # --- Construction ---
-1721.T  # Comsys Holdings
-1925.T  # Daiwa House Industry
-1808.T  # Haseko
-1963.T  # JGC Corporation
-1812.T  # Kajima
-1802.T  # Obayashi
-1928.T  # Sekisui House
-1803.T  # Shimizu
-1801.T  # Taisei
+1721.T  # コムシスホールディングス
+1925.T  # 大和ハウス工業
+1808.T  # 長谷工コーポレーション
+1963.T  # 日揮ホールディングス
+1812.T  # 鹿島建設
+1802.T  # 大林組
+1928.T  # 積水ハウス
+1803.T  # 清水建設
+1801.T  # 大成建設
 # --- Electric machinery ---
-6857.T  # Advantest
-6770.T  # Alps Alpine
-7751.T  # Canon
-6902.T  # Denso
-6954.T  # FANUC
-6504.T  # Fuji Electric
-6702.T  # Fujitsu
-6501.T  # Hitachi
-6861.T  # Keyence
-285A.T  # Kioxia Holdings
-6971.T  # Kyocera
-6920.T  # Lasertec
-6479.T  # MinebeaMitsumi
-6503.T  # Mitsubishi Electric
-6981.T  # Murata Manufacturing
+6857.T  # アドバンテスト
+6770.T  # アルプスアルパイン
+7751.T  # キヤノン
+6902.T  # デンソー
+6954.T  # ファナック
+6504.T  # 富士電機
+6702.T  # 富士通
+6501.T  # 日立製作所
+6861.T  # キーエンス
+285A.T  # キオクシアホールディングス
+6971.T  # 京セラ
+6920.T  # レーザーテック
+6479.T  # ミネベアミツミ
+6503.T  # 三菱電機
+6981.T  # 村田製作所
 6701.T  # NEC
-6594.T  # Nidec
-6645.T  # Omron
-6752.T  # Panasonic
-6723.T  # Renesas Electronics
-7752.T  # Ricoh
-6963.T  # Rohm
-7735.T  # SCREEN Holdings
-6724.T  # Seiko Epson
-6753.T  # Sharp
-6758.T  # Sony Group
-6526.T  # Socionext
-6976.T  # Taiyo Yuden
+6594.T  # ニデック
+6645.T  # オムロン
+6752.T  # パナソニックホールディングス
+6723.T  # ルネサスエレクトロニクス
+7752.T  # リコー
+6963.T  # ローム
+7735.T  # SCREENホールディングス
+6724.T  # セイコーエプソン
+6753.T  # シャープ
+6758.T  # ソニーグループ
+6526.T  # ソシオネクスト
+6976.T  # 太陽誘電
 6762.T  # TDK
-8035.T  # Tokyo Electron
-6506.T  # Yaskawa Electric
-6841.T  # Yokogawa Electric
+8035.T  # 東京エレクトロン
+6506.T  # 安川電機
+6841.T  # 横河電機
 # --- Electric power ---
-9502.T  # Chubu Electric Power
-9503.T  # Kansai Electric Power
-9501.T  # Tokyo Electric Power (TEPCO)
+9502.T  # 中部電力
+9503.T  # 関西電力
+9501.T  # 東京電力ホールディングス
 # --- Fishery ---
-1332.T  # Nissui
+1332.T  # ニッスイ
 # --- Foods ---
-2802.T  # Ajinomoto
-2502.T  # Asahi Group Holdings
-2914.T  # Japan Tobacco
-2801.T  # Kikkoman
-2503.T  # Kirin Holdings
-2269.T  # Meiji Holdings
-2282.T  # NH Foods
-2871.T  # Nichirei
-2002.T  # Nisshin Seifun Group
-2501.T  # Sapporo Holdings
+2802.T  # 味の素
+2502.T  # アサヒグループホールディングス
+2914.T  # 日本たばこ産業（JT）
+2801.T  # キッコーマン
+2503.T  # キリンホールディングス
+2269.T  # 明治ホールディングス
+2282.T  # 日本ハム
+2871.T  # ニチレイ
+2002.T  # 日清製粉グループ本社
+2501.T  # サッポロホールディングス
 # --- Gas ---
-9532.T  # Osaka Gas
-9531.T  # Tokyo Gas
+9532.T  # 大阪ガス
+9531.T  # 東京ガス
 # --- Glass & ceramics ---
 5201.T  # AGC
-5333.T  # NGK Insulators
-5214.T  # Nippon Electric Glass
-5233.T  # Taiheiyo Cement
-5301.T  # Tokai Carbon
-5332.T  # Toto
+5333.T  # 日本碍子
+5214.T  # 日本電気硝子
+5233.T  # 太平洋セメント
+5301.T  # 東海カーボン
+5332.T  # TOTO
 # --- Insurance ---
-8750.T  # Dai-ichi Life Holdings
-8725.T  # MS&AD Insurance Group
-8630.T  # Sompo Holdings
-8795.T  # T&D Holdings
-8766.T  # Tokio Marine Holdings
+8750.T  # 第一生命ホールディングス
+8725.T  # MS&ADインシュアランスグループホールディングス
+8630.T  # SOMPOホールディングス
+8795.T  # T&Dホールディングス
+8766.T  # 東京海上ホールディングス
 # --- Land transport ---
-9147.T  # Nippon Express Holdings
-9064.T  # Yamato Holdings
+9147.T  # NIPPON EXPRESSホールディングス（日本通運）
+9064.T  # ヤマトホールディングス
 # --- Machinery ---
-6113.T  # Amada
-6367.T  # Daikin Industries
-6361.T  # Ebara
-6305.T  # Hitachi Construction Machinery
-7004.T  # Kanadevia
+6113.T  # アマダ
+6367.T  # ダイキン工業
+6361.T  # 荏原製作所
+6305.T  # 日立建機
+7004.T  # カナデビア
 7013.T  # IHI
-5631.T  # Japan Steel Works
-6473.T  # JTEKT
-6301.T  # Komatsu
-6326.T  # Kubota
-7011.T  # Mitsubishi Heavy Industries
-6471.T  # NSK
+5631.T  # 日本製鋼所
+6473.T  # ジェイテクト
+6301.T  # コマツ
+6326.T  # クボタ
+7011.T  # 三菱重工業
+6471.T  # 日本精工
 6472.T  # NTN
-6103.T  # Okuma Holdings
-6302.T  # Sumitomo Heavy Industries
-6273.T  # SMC Corporation
+6103.T  # オークマ
+6302.T  # 住友重機械工業
+6273.T  # SMC
 # --- Marine transport ---
-9107.T  # Kawasaki Kisen Kaisha
-9104.T  # Mitsui O.S.K. Lines
-9101.T  # Nippon Yusen (NYK)
+9107.T  # 川崎汽船
+9104.T  # 商船三井
+9101.T  # 日本郵船
 # --- Mining ---
-1605.T  # Inpex
+1605.T  # INPEX
 # --- Nonferrous metals ---
-5714.T  # Dowa Holdings
-5803.T  # Fujikura
-5801.T  # Furukawa Electric
-5711.T  # Mitsubishi Materials
-5706.T  # Mitsui Mining & Smelting
+5714.T  # DOWAホールディングス
+5803.T  # フジクラ
+5801.T  # 古河電気工業
+5711.T  # 三菱マテリアル
+5706.T  # 三井金属鉱業
 3436.T  # SUMCO
-5802.T  # Sumitomo Electric Industries
-5713.T  # Sumitomo Metal Mining
+5802.T  # 住友電気工業
+5713.T  # 住友金属鉱山
 # --- Other financial services ---
-8253.T  # Credit Saison
-8697.T  # Japan Exchange Group
-8591.T  # Orix
+8253.T  # クレディセゾン
+8697.T  # 日本取引所グループ
+8591.T  # オリックス
 # --- Other manufacturing ---
-7832.T  # Bandai Namco Holdings
-7912.T  # Dai Nippon Printing
-7911.T  # Toppan
-7951.T  # Yamaha Corporation
+7832.T  # バンダイナムコホールディングス
+7912.T  # 大日本印刷
+7911.T  # TOPPANホールディングス
+7951.T  # ヤマハ
 # --- Petroleum ---
-5020.T  # Eneos Holdings
-5019.T  # Idemitsu Kosan
+5020.T  # ENEOSホールディングス
+5019.T  # 出光興産
 # --- Pharmaceuticals ---
-4503.T  # Astellas Pharma
-4519.T  # Chugai Pharmaceutical
-4568.T  # Daiichi Sankyo
-4523.T  # Eisai
-4151.T  # Kyowa Kirin
-4578.T  # Otsuka Holdings
-4506.T  # Sumitomo Pharma
-4507.T  # Shionogi
-4502.T  # Takeda Pharmaceutical
+4503.T  # アステラス製薬
+4519.T  # 中外製薬
+4568.T  # 第一三共
+4523.T  # エーザイ
+4151.T  # 協和キリン
+4578.T  # 大塚ホールディングス
+4506.T  # 住友ファーマ
+4507.T  # 塩野義製薬
+4502.T  # 武田薬品工業
 # --- Precision instruments ---
-6146.T  # Disco
-7741.T  # Hoya
-4902.T  # Konica Minolta
-7731.T  # Nikon
-7733.T  # Olympus
-4543.T  # Terumo
+6146.T  # ディスコ
+7741.T  # HOYA
+4902.T  # コニカミノルタ
+7731.T  # ニコン
+7733.T  # オリンパス
+4543.T  # テルモ
 # --- Pulp & paper ---
-3861.T  # Oji Holdings
+3861.T  # 王子ホールディングス
 # --- Railway / bus ---
-9022.T  # Central Japan Railway (JR Central)
-9020.T  # East Japan Railway (JR East)
-9008.T  # Keio
-9009.T  # Keisei Electric Railway
-9007.T  # Odakyu Electric Railway
-9001.T  # Tobu Railway
-9005.T  # Tokyu
-9021.T  # West Japan Railway (JR West)
+9022.T  # 東海旅客鉄道（JR東海）
+9020.T  # 東日本旅客鉄道（JR東日本）
+9008.T  # 京王電鉄
+9009.T  # 京成電鉄
+9007.T  # 小田急電鉄
+9001.T  # 東武鉄道
+9005.T  # 東急
+9021.T  # 西日本旅客鉄道（JR西日本）
 # --- Real estate ---
-8802.T  # Mitsubishi Estate
-8801.T  # Mitsui Fudosan
-8830.T  # Sumitomo Realty & Development
-8804.T  # Tokyo Tatemono
-3289.T  # Tokyu Land
+8802.T  # 三菱地所
+8801.T  # 三井不動産
+8830.T  # 住友不動産
+8804.T  # 東京建物
+3289.T  # 東急不動産ホールディングス
 # --- Retail ---
-8267.T  # Aeon
-9983.T  # Fast Retailing
-3099.T  # Isetan Mitsukoshi Holdings
-3086.T  # J. Front Retailing
-8252.T  # Marui Group
-7453.T  # Ryohin Keikaku (Muji)
-9843.T  # Nitori Holdings
-7532.T  # Pan Pacific International Holdings
-3382.T  # Seven & i Holdings
-8233.T  # Takashimaya
+8267.T  # イオン
+9983.T  # ファーストリテイリング
+3099.T  # 三越伊勢丹ホールディングス
+3086.T  # J.フロント リテイリング
+8252.T  # 丸井グループ
+7453.T  # 良品計画
+9843.T  # ニトリホールディングス
+7532.T  # パン・パシフィック・インターナショナルホールディングス
+3382.T  # セブン&アイ・ホールディングス
+8233.T  # 高島屋
 3092.T  # ZOZO
 # --- Rubber ---
-5108.T  # Bridgestone
-5101.T  # Yokohama Rubber
+5108.T  # ブリヂストン
+5101.T  # 横浜ゴム
 # --- Securities ---
-8601.T  # Daiwa Securities Group
-8604.T  # Nomura Holdings
+8601.T  # 大和証券グループ本社
+8604.T  # 野村ホールディングス
 # --- Services ---
-6532.T  # BayCurrent
-4751.T  # CyberAgent
-2432.T  # DeNA
-4324.T  # Dentsu Group
-6178.T  # Japan Post Holdings
-9766.T  # Konami Group
-4689.T  # LY Corporation
-4385.T  # Mercari
-2413.T  # M3
-3659.T  # Nexon
-7974.T  # Nintendo
-4307.T  # Nomura Research Institute
-4661.T  # Oriental Land
-4755.T  # Rakuten Group
-6098.T  # Recruit Holdings
-9735.T  # Secom
+6532.T  # ベイカレント
+4751.T  # サイバーエージェント
+2432.T  # ディー・エヌ・エー（DeNA）
+4324.T  # 電通グループ
+6178.T  # 日本郵政
+9766.T  # コナミグループ
+4689.T  # LINEヤフー
+4385.T  # メルカリ
+2413.T  # エムスリー
+3659.T  # ネクソン
+7974.T  # 任天堂
+4307.T  # 野村総合研究所
+4661.T  # オリエンタルランド
+4755.T  # 楽天グループ
+6098.T  # リクルートホールディングス
+9735.T  # セコム
 3697.T  # SHIFT
-9602.T  # Toho
-4704.T  # Trend Micro
+9602.T  # 東宝
+4704.T  # トレンドマイクロ
 # --- Shipbuilding ---
-7012.T  # Kawasaki Heavy Industries
+7012.T  # 川崎重工業
 # --- Steel ---
-5411.T  # JFE Holdings
-5406.T  # Kobe Steel
-5401.T  # Nippon Steel
+5411.T  # JFEホールディングス
+5406.T  # 神戸製鋼所
+5401.T  # 日本製鉄
 # --- Textiles & apparel ---
-3401.T  # Teijin
-3402.T  # Toray Industries
+3401.T  # 帝人
+3402.T  # 東レ
 # --- Trading companies ---
-8001.T  # Itochu
-8002.T  # Marubeni
-8058.T  # Mitsubishi Corp.
-8031.T  # Mitsui & Co.
-2768.T  # Sojitz
-8053.T  # Sumitomo Corp.
-8015.T  # Toyota Tsusho
+8001.T  # 伊藤忠商事
+8002.T  # 丸紅
+8058.T  # 三菱商事
+8031.T  # 三井物産
+2768.T  # 双日
+8053.T  # 住友商事
+8015.T  # 豊田通商
